@@ -93,7 +93,7 @@ export default class PDFExample extends React.Component {
     const { params } = this.props.navigation.state;
     id_doc = params.id_doc;
     const options = {
-      fromUrl: "http://syysbiir.000webhostapp.com/docs/"+params.src,
+      fromUrl: "http://localhost/docs/"+params.src,
       toFile: this.pdfPath
     };
     RNFS.downloadFile(options).promise.then(res => {

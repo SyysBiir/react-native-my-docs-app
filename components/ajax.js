@@ -1,6 +1,6 @@
 export default ajax = (method, data) => {
 return new Promise ((resolve, reject) => {
-	      fetch("http://syysbiir.000webhostapp.com/index.php", {
+	      fetch("http://localhost/index.php", {
               method: method,
               headers: {
                   "Content-type": "application/x-www-form-urlencoded"

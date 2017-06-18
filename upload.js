@@ -61,7 +61,7 @@ class UploadDoc extends Component {
                     });
               const settings = {
                 uri: this.state.file.path,
-                uploadUrl: 'http://syysbiir.000webhostapp.com/upload.php',
+                uploadUrl: 'http://localhost/upload.php',
                 method: 'POST',
                 fileName: 'file',
                 fieldName: 'file',

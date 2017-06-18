@@ -22,7 +22,7 @@ class ShareDoc extends Component {
     let shareOptions = {
       title: "Мой документ",
       message: "Ссылка для просмотра документа "+v1,
-      url: "http://syysbiir.000webhostapp.com/docs/"+v2,
+      url: "http://localhost/docs/"+v2,
       subject: "Share Link"
     };
     Share.open(shareOptions);
