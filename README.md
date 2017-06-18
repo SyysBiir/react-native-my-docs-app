@@ -8,7 +8,7 @@
   - Share a link PDF document
   - User registration/Login
 
-### Get Starded
+### Get starded
 For android:
 Run the Android emulator or connect the device android via USB. Enter in the terminal:
 ```sh
