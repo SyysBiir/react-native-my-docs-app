@@ -1,0 +1,17 @@
+rootProject.name = 'App'
+include ':react-native-restart'
+project(':react-native-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-restart/android')
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share/android')
+include ':react-native-file-uploader'
+project(':react-native-file-uploader').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-file-uploader/android')
+include ':react-native-file-picker'
+project(':react-native-file-picker').projectDir = new File(settingsDir, '../node_modules/react-native-file-picker/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':PDFView'
+project(':PDFView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pdf-view/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':app'
